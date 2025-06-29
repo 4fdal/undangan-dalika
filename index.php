@@ -1,5 +1,11 @@
 <?php
 $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
+
+$is_https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+  || $_SERVER['SERVER_PORT'] == 443;
+$protocol = $is_https  ? 'https://' : 'http://';
+$base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
+
 ?>
 
 <!DOCTYPE html>
@@ -25,8 +31,8 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <meta property="og:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
   <meta property="og:url" content="https://dalika.ct.ws" />
   <meta property="og:site_name" content="Digital Wedding Invitation" />
-  <meta property="og:image" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
-  <meta property="og:image:secure_url" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image:secure_url" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="810" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -39,7 +45,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Wedding of Ika & Afdal – 03 Agustus 2025" />
   <meta name="twitter:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
-  <meta name="twitter:image" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta name="twitter:image" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta name="twitter:label1" content="Ditulis oleh" />
   <meta name="twitter:data1" content="kodeingatan" />
   <meta name="twitter:label2" content="Waktunya membaca" />
@@ -4363,7 +4369,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                 <script type="text/javascript">
                   var WdsAudio = {
                     source: "url",
-                    audio_link: "https:\/\/data.kekondangan.app\/Music%2FANDMESH%20-%20ANUGERAH%20TERINDAH.mp3",
+                    audio_link: "<?= $base_url ?>/music.mp3",
                     audio_start: "",
                     audio_end: "",
                     autoplay: false,
@@ -4417,7 +4423,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                 <div id="wds-audio-box" style="display: none !important">
                   <audio id="song" loop>
                     <source
-                      src="https://data.kekondangan.app/Music%2FANDMESH%20-%20ANUGERAH%20TERINDAH.mp3"
+                      src="<?= $base_url ?>/music.mp3"
                       type="audio/mp3" />
                   </audio>
                 </div>
