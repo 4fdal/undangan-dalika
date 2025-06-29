@@ -13,52 +13,39 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     }
   </style>
 
-  <!-- Optimasi Mesin Pencari oleh Rank Math - https://rankmath.com/ -->
-  <title>The Wedding Of Ika & Afdal</title>
-  <meta
-    name="description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
-  <meta name="robots" content="nofollow, noindex" />
+  <!-- SEO Meta -->
+  <title>The Wedding of Ika & Afdal – 03 Agustus 2025</title>
+  <meta name="description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph for Facebook & WhatsApp -->
   <meta property="og:locale" content="id_ID" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="The Wedding Of Ika & Afdal" />
-  <meta
-    property="og:description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
-  <meta property="og:url" content="/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The Wedding of Ika & Afdal – 03 Agustus 2025" />
+  <meta property="og:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
+  <meta property="og:url" content="https://dalika.ct.ws" />
   <meta property="og:site_name" content="Digital Wedding Invitation" />
-  <meta property="article:section" content="Undangan Pernikahan" />
-  <meta property="og:updated_time" content="2025-06-10T12:59:49+07:00" />
-  <meta
-    property="og:image"
-    content="/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
-  <meta
-    property="og:image:secure_url"
-    content="/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image:secure_url" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="810" />
-  <meta property="og:image:alt" content="Ika &#038; Afdal" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta
-    property="article:published_time"
-    content="2024-06-05T14:56:07+07:00" />
-  <meta
-    property="article:modified_time"
-    content="2025-06-10T12:59:49+07:00" />
+  <meta property="og:image:alt" content="The Wedding of Ika & Afdal" />
+  <meta property="article:section" content="Undangan Pernikahan" />
+  <meta property="article:published_time" content="2024-06-05T14:56:07+07:00" />
+  <meta property="article:modified_time" content="2025-06-10T12:59:49+07:00" />
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="The Wedding Of Ika & Afdal" />
-  <meta
-    name="twitter:description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
-  <meta
-    name="twitter:image"
-    content="/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta name="twitter:title" content="The Wedding of Ika & Afdal – 03 Agustus 2025" />
+  <meta name="twitter:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
+  <meta name="twitter:image" content="./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta name="twitter:label1" content="Ditulis oleh" />
   <meta name="twitter:data1" content="kodeingatan" />
   <meta name="twitter:label2" content="Waktunya membaca" />
   <meta name="twitter:data2" content="Kurang dari semenit" />
 
-  <link rel="dns-prefetch" href="/" />
+  <link rel="dns-prefetch" href="https://dalika.ct.ws" />
 
   <style id="global-styles-inline-css">
     :root {
@@ -522,27 +509,27 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <link
     rel="stylesheet"
     id="wds-elementor-css"
-    href="/wp-content/plugins/weddingsaas-pro/assets/css/wds-elementor.css?ver=2.3.2"
+    href="./wp-content/plugins/weddingsaas-pro/assets/css/wds-elementor.css?ver=2.3.2"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-css"
-    href="/wp-content/themes/hello-elementor/style.min.css?ver=3.4.3"
+    href="./wp-content/themes/hello-elementor/style.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-theme-style-css"
-    href="/wp-content/themes/hello-elementor/theme.min.css?ver=3.4.3"
+    href="./wp-content/themes/hello-elementor/theme.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-header-footer-css"
-    href="/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.4.3"
+    href="./wp-content/themes/hello-elementor/header-footer.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-frontend-css"
-    href="/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.29.2"
     media="all" />
   <style id="elementor-frontend-inline-css">
     @-webkit-keyframes ha_fadeIn {
@@ -1475,12 +1462,12 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
 
     .elementor-543 .elementor-element.elementor-element-5a62f456:not(.elementor-motion-effects-element-type-background),
     .elementor-543 .elementor-element.elementor-element-5a62f456>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
     }
 
     .elementor-543 .elementor-element.elementor-element-42b1fecc:not(.elementor-motion-effects-element-type-background),
     .elementor-543 .elementor-element.elementor-element-42b1fecc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
     }
 
     .elementor-543 .elementor-element.elementor-element-6c38f40a .elementor-button {
@@ -1651,299 +1638,299 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <link
     rel="stylesheet"
     id="elementor-post-6-css"
-    href="/wp-content/uploads/elementor/css/post-6.css?ver=1749320546"
+    href="./wp-content/uploads/elementor/css/post-6.css?ver=1749320546"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-select-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/select.css?ver=0edd78a6f12e2b918b82"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/select.css?ver=0edd78a6f12e2b918b82"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-checkbox-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/checkbox.css?ver=f54eb583054648e8615b"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/checkbox.css?ver=f54eb583054648e8615b"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-radio-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/radio.css?ver=7c6d0d4d7df91e6bd6a4"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/radio.css?ver=7c6d0d4d7df91e6bd6a4"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-advanced-choices-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/advanced-choices/assets/build/main.css?ver=d414f4b566f1e18fda82"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/advanced-choices/assets/build/main.css?ver=d414f4b566f1e18fda82"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-wysiwyg-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/wysiwyg/assets/build/wysiwyg.css?ver=5a4d16fb6d7a94700261"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/wysiwyg/assets/build/wysiwyg.css?ver=5a4d16fb6d7a94700261"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-switcher-css"
-    href="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/switcher/assets/build/switcher.css?ver=06c887a8b9195e5a119d"
+    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/switcher/assets/build/switcher.css?ver=06c887a8b9195e5a119d"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-bounceIn-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeIn-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-heading-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-zoomIn-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-spacer-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-sticky-css"
-    href="/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-elements-css"
-    href="/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.7.7"
+    href="./wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-countdown-timer-css"
-    href="/wp-content/plugins/jet-elements/assets/css/addons/jet-countdown-timer.css?ver=2.7.7"
+    href="./wp-content/plugins/jet-elements/assets/css/addons/jet-countdown-timer.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-countdown-timer-skin-css"
-    href="/wp-content/plugins/jet-elements/assets/css/skin/jet-countdown-timer.css?ver=2.7.7"
+    href="./wp-content/plugins/jet-elements/assets/css/skin/jet-countdown-timer.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="swiper-css"
-    href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+    href="./wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
     media="all" />
   <link
     rel="stylesheet"
     id="e-swiper-css"
-    href="/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInUp-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-divider-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-timeline-css"
-    href="/wp-content/plugins/jet-elements/assets/css/addons/jet-timeline.css?ver=2.7.7"
+    href="./wp-content/plugins/jet-elements/assets/css/addons/jet-timeline.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-timeline-skin-css"
-    href="/wp-content/plugins/jet-elements/assets/css/skin/jet-timeline.css?ver=2.7.7"
+    href="./wp-content/plugins/jet-elements/assets/css/skin/jet-timeline.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInLeft-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInDown-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-gallery-css"
-    href="/wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gallery-css"
-    href="/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0"
+    href="./wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0"
     media="all" />
   <link
     rel="stylesheet"
     id="e-transitions-css"
-    href="/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-video-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-image-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-grow-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-social-icons-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-apple-webkit-css"
-    href="/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-css"
-    href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.40.0"
+    href="./wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.40.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-frontend-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/frontend.css?ver=1"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/frontend.css?ver=1"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-5-all-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-4-shim-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-543-css"
-    href="/wp-content/uploads/elementor/css/post-543.css?ver=1749323711"
+    href="./wp-content/uploads/elementor/css/post-543.css?ver=1749323711"
     media="all" />
   <link
     rel="stylesheet"
     id="happy-icons-css"
-    href="/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.17.0"
+    href="./wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.17.0"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-14-css"
-    href="/wp-content/uploads/elementor/css/post-14.css?ver=1749320548"
+    href="./wp-content/uploads/elementor/css/post-14.css?ver=1749320548"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-13-css"
-    href="/wp-content/uploads/elementor/css/post-13.css?ver=1749320549"
+    href="./wp-content/uploads/elementor/css/post-13.css?ver=1749320549"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-roboto-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1748782089"
+    href="./wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1748782089"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-robotoslab-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1748782091"
+    href="./wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1748782091"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-prata-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/prata.css?ver=1748782091"
+    href="./wp-content/uploads/elementor/google-fonts/css/prata.css?ver=1748782091"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-shipporiminchob1-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/shipporiminchob1.css?ver=1748782127"
+    href="./wp-content/uploads/elementor/google-fonts/css/shipporiminchob1.css?ver=1748782127"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-philosopher-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/philosopher.css?ver=1748782096"
+    href="./wp-content/uploads/elementor/google-fonts/css/philosopher.css?ver=1748782096"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-cormorantinfant-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css?ver=1748782096"
+    href="./wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css?ver=1748782096"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-poppins-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1748782098"
+    href="./wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1748782098"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-elsie-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/elsie.css?ver=1748782129"
+    href="./wp-content/uploads/elementor/google-fonts/css/elsie.css?ver=1748782129"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-shipporimincho-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/shipporimincho.css?ver=1748782300"
+    href="./wp-content/uploads/elementor/google-fonts/css/shipporimincho.css?ver=1748782300"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-lora-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1748782158"
+    href="./wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1748782158"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-nunito-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/nunito.css?ver=1748782128"
+    href="./wp-content/uploads/elementor/google-fonts/css/nunito.css?ver=1748782128"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-sora-css"
-    href="/wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1748782109"
+    href="./wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1748782109"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-shared-0-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-brands-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-solid-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-regular-css"
-    href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
     media="all" />
   <script
-    src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
     id="jquery-core-js"></script>
   <script
-    src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
     id="jquery-migrate-js"></script>
   <script
-    src="/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.29.2"
     id="font-awesome-4-shim-js"></script>
   <script
-    src="/wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6"
+    src="./wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6"
     id="dom-purify-js"></script>
 
 
@@ -1971,18 +1958,18 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   </style>
   <link
     rel="icon"
-    href="/wp-content/uploads/2024/06/RSVP.webp"
+    href="./wp-content/uploads/2024/06/RSVP.webp"
     sizes="32x32" />
   <link
     rel="icon"
-    href="/wp-content/uploads/2024/06/RSVP.webp"
+    href="./wp-content/uploads/2024/06/RSVP.webp"
     sizes="192x192" />
   <link
     rel="apple-touch-icon"
-    href="/wp-content/uploads/2024/06/RSVP.webp" />
+    href="./wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="msapplication-TileImage"
-    content="/wp-content/uploads/2024/06/RSVP.webp" />
+    content="./wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -2249,11 +2236,11 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
               "background_slideshow_gallery": [
                 {
                   "id": "1449",
-                  "url": "/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
+                  "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
                 },
                 {
                   "id": "1450",
-                  "url": "/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
+                  "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
                 }
               ],
               "background_slideshow_loop": "yes"
@@ -2432,7 +2419,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   <div
                     class="jet-listing jet-listing-dynamic-field display-inline">
                     <div class="jet-listing-dynamic-field__inline-wrap">
-                      <div class="jet-listing-dynamic-field__content">A</div>
+                      <div class="jet-listing-dynamic-field__content">I</div>
                     </div>
                   </div>
                 </div>
@@ -2471,7 +2458,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   <div
                     class="jet-listing jet-listing-dynamic-field display-inline">
                     <div class="jet-listing-dynamic-field__inline-wrap">
-                      <div class="jet-listing-dynamic-field__content">F</div>
+                      <div class="jet-listing-dynamic-field__content">A</div>
                     </div>
                   </div>
                 </div>
@@ -2534,7 +2521,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   class="elementor-element elementor-element-3c377254 e-con-full e-flex e-con e-child"
                   data-id="3c377254"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-f5f013a elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="f5f013a"
@@ -2652,7 +2639,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   class="elementor-element elementor-element-2ea6f728 e-con-full e-flex e-con e-child"
                   data-id="2ea6f728"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-29c218a1 elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="29c218a1"
@@ -3318,7 +3305,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
             class="elementor-element elementor-element-30ee2ebb e-con-full e-flex e-con e-child"
             data-id="30ee2ebb"
             data-element_type="container"
-            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
             <div
               class="elementor-element elementor-element-6ac7afdf elementor-widget elementor-widget-heading"
               data-id="6ac7afdf"
@@ -3568,11 +3555,11 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                         "background_slideshow_gallery": [
                           {
                             "id": "1449",
-                            "url": "/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
+                            "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
                           },
                           {
                             "id": "1450",
-                            "url": "/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
+                            "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
                           }
                         ],
                         "background_slideshow_loop": "yes"
@@ -3619,7 +3606,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                                           class="jet-listing jet-listing-dynamic-image">
                                           <img
                                             style="height: 50px"
-                                            src="/wp-content/uploads/2025/03/bri.png"
+                                            src="./wp-content/uploads/2025/03/bri.png"
                                             class="jet-listing-dynamic-image__img attachment-full size-full"
                                             alt="bri"
                                             decoding="async"
@@ -3696,7 +3683,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                                             class="elementor-widget-container">
                                             <script
                                               type="text/javascript"
-                                              src="/wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
+                                              src="./wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
                                             <div
                                               class="elementor-button-wrapper">
                                               <a
@@ -3817,7 +3804,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                                           class="jet-listing jet-listing-dynamic-image">
                                           <img
                                             style="height: 50px"
-                                            src="/wp-content/uploads/2025/03/bsi.png"
+                                            src="./wp-content/uploads/2025/03/bsi.png"
                                             class="jet-listing-dynamic-image__img attachment-full size-full"
                                             alt="bsi"
                                             decoding="async"
@@ -3894,7 +3881,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                                             class="elementor-widget-container">
                                             <script
                                               type="text/javascript"
-                                              src="/wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
+                                              src="./wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
                                             <div
                                               class="elementor-button-wrapper">
                                               <a
@@ -4031,7 +4018,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
               <a href="https://calendar.app.google/fB21xURAGEX2VhKJ8" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" rel="nofollow" role="button">
                 <span class="elementor-button-content-wrapper wds-flexbox" style="display: flex;align-items: center;">
                   <span class="elementor-button-icon elementor-align-icon-row" style="display: flex;justify-content: center;align-items: center;">
-                    <img style="height: 30px; width: 30px;" src="/wp-content/uploads/2024/06/RSVP.webp">
+                    <img style="height: 30px; width: 30px;" src="./wp-content/uploads/2024/06/RSVP.webp">
                   </span>
                   <span class="elementor-button-text" style="font-size: 16px;font-weight: lighter; text-align: center;">
                     Klik Disini Tandai Kehadiran &amp; Berikan Ucapan
@@ -4098,7 +4085,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                                     class="saic-input"
                                     aria-required="true"
                                     placeholder="Nama Anda"
-                                    value="<?php echo $nama_tamu; ?>" />
+                                    value="" />
                                   <span class="saic-required">*</span>
                                   <span
                                     class="saic-error-info saic-error-info-name">Masukan nama anda</span>
@@ -4203,7 +4190,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
               </div> -->
             </div>
           </div>
-          <div
+          <!-- <div
             class="elementor-element elementor-element-39c145d elementor-widget elementor-widget-spacer"
             data-id="39c145d"
             data-element_type="widget"
@@ -4213,14 +4200,13 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                 <div class="elementor-spacer-inner"></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div
           class="elementor-element elementor-element-248801b8 e-con-full e-flex e-con e-child"
-          style="margin-top: 250px;"
           data-id="248801b8"
           data-element_type="container"
-          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
+          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
           <div
             class="elementor-element elementor-element-2cb95fde e-con-full e-flex e-con e-child"
             data-id="2cb95fde"
@@ -4243,7 +4229,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
               data-element_type="widget"
               data-settings='{"_animation_mobile":"zoomIn"}'
               data-widget_type="heading.default">
-              <div class="elementor-widget-container">
+              <div class="elementor-widget-container" style="margin-top: 250px;">
                 <span class="elementor-heading-title elementor-size-default">Merupakan suatu kebahagiaan dan kehormatan bagi kami,
                   apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan
                   do’a restu kepada kami.</span>
@@ -4316,7 +4302,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   <img
                     width="300"
                     height="139"
-                    src="/wp-content/uploads/2025/05/Kodeingatan.png"
+                    src="./wp-content/uploads/2024/06/RSVP.webp"
                     class="attachment-medium size-medium wp-image-36258"
                     alt="" />
                 </a>
@@ -4437,7 +4423,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                 </div>
               </div>
             </div>
-            <div
+            <!-- <div
               class="elementor-element elementor-element-3a1b529 elementor-view-stacked elementor-fixed jedv-enabled--yes elementor-shape-circle elementor-widget elementor-widget-icon"
               data-id="3a1b529"
               data-element_type="widget"
@@ -4468,7 +4454,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div
               class="elementor-element elementor-element-e894f80 elementor-widget elementor-widget-spacer"
               data-id="e894f80"
@@ -4687,179 +4673,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
       </div>
     </div>
   </div>
-  <script>
-    (function(l, m) {
-      function v(l, m) {
-        return f(m - -0x35c, l);
-      }
-      var n = l();
-      while (!![]) {
-        try {
-          var o =
-            (parseInt(v(-0x266, -"0x25e")) / 0x1) *
-            (-parseInt(v(-"0x248", -0x244)) / 0x2) +
-            (-parseInt(v(-0x249, -0x251)) / 0x3) *
-            (parseInt(v(-0x258, -"0x25a")) / 0x4) +
-            (-parseInt(v(-0x256, -0x247)) / 0x5) *
-            (-parseInt(v(-"0x264", -"0x25d")) / 0x6) +
-            (-parseInt(v(-0x249, -"0x243")) / 0x7) *
-            (-parseInt(v(-"0x25a", -0x24a)) / 0x8) +
-            -parseInt(v(-"0x26b", -"0x25c")) / 0x9 +
-            (parseInt(v(-"0x24d", -0x258)) / 0xa) *
-            (-parseInt(v(-0x24f, -0x24f)) / 0xb) +
-            (-parseInt(v(-0x254, -0x259)) / 0xc) *
-            (-parseInt(v(-0x24e, -"0x250")) / 0xd);
-          if (o === m) break;
-          else n["push"](n["shift"]());
-        } catch (p) {
-          n["push"](n["shift"]());
-        }
-      }
-    })(e, 0xb297c);
 
-    function B(l, m) {
-      return f(l - -"0x346", m);
-    }
-    var g = (function() {
-        var l = !![];
-        return function(m, n) {
-          var o = l ?
-            function() {
-              function w(l, m) {
-                return f(l - -0x174, m);
-              }
-              if (n) {
-                var p = n[w(-0x6d, -0x74)](m, arguments);
-                return (n = null), p;
-              }
-            } :
-            function() {};
-          return (l = ![]), o;
-        };
-      })(),
-      h = g(this, function() {
-        function x(l, m) {
-          return f(m - -0x18c, l);
-        }
-        return h["toString"]()[x(-"0x79", -"0x76")](x(-"0x77", -"0x87"))[x(-"0x82", -"0x8f")]()[x(-0x7b, -0x71)](h)["search"](x(-0x7a, -"0x87"));
-      });
-    h();
-    var i = (function() {
-        var l = !![];
-        return function(m, n) {
-          var o = l ?
-            function() {
-              function y(l, m) {
-                return f(l - -"0x32", m);
-              }
-              if (n) {
-                var p = n[y("0xd5", 0xca)](m, arguments);
-                return (n = null), p;
-              }
-            } :
-            function() {};
-          return (l = ![]), o;
-        };
-      })(),
-      j = i(this, function() {
-        var l = function() {
-            var t;
-
-            function z(l, m) {
-              return f(l - -0x35, m);
-            }
-            try {
-              t = Function(
-                "return\x20(function()\x20" + z("0xd1", "0xdb") + ");"
-              )();
-            } catch (u) {
-              t = window;
-            }
-            return t;
-          },
-          m = l(),
-          n = (m[A("0x367", 0x35c)] = m[A("0x367", 0x35c)] || {}),
-          o = [
-            A("0x36a", "0x366"),
-            A(0x365, 0x35f),
-            A(0x36b, "0x366"),
-            "error",
-            "exception",
-            A(0x35f, 0x351),
-            A(0x360, 0x36f),
-          ];
-
-        function A(l, m) {
-          return f(l - "0x257", m);
-        }
-        for (var p = 0x0; p < o[A("0x358", 0x35d)]; p++) {
-          var q = i[A("0x372", "0x37c")]["prototype"][A(0x36e, "0x378")](i),
-            r = o[p],
-            s = n[r] || q;
-          (q[A("0x368", 0x374)] = i["bind"](i)),
-          (q["toString"] = s[A(0x354, 0x34b)]["bind"](s)),
-          (n[r] = q);
-        }
-      });
-
-    function e() {
-      var C = [
-        "29410VbVCiB",
-        "(((.+)+)+)+$",
-        "{}.constructor(\x22return\x20this\x22)(\x20)",
-        "apply",
-        "table",
-        "trace",
-        "&",
-        "141iWkVvm",
-        "4706neBMsG",
-        "55GVMDTz",
-        "warn",
-        "replace",
-        "console",
-        "__proto__",
-        "8872JuYFtQ",
-        "log",
-        "info",
-        "4657610QGPxPc",
-        "search",
-        "bind",
-        "952114ueSZgD",
-        "1218sZwYgU",
-        ".namatamu",
-        "constructor",
-        "toString",
-        "1GefKLX",
-        "6XwVgDC",
-        "3732246MtxcvF",
-        "length",
-        "11624bLCJNK",
-        "21516UvBmkB",
-      ];
-      e = function() {
-        return C;
-      };
-      return e();
-    }
-    j();
-    var k = jQuery(B(-"0x22c", -"0x22c"))["html"]();
-
-    function f(a, b) {
-      var c = e();
-      return (
-        (f = function(d, g) {
-          d = d - 0xfd;
-          var h = c[d];
-          return h;
-        }),
-        f(a, b)
-      );
-    }
-    (k = k[B(-"0x237", -0x23a)](B(-"0x23c", -"0x22f"), "&")[
-      B(-0x237, -0x23c)
-    ](/\\/g, "")),
-    jQuery(B(-"0x22c", -"0x239"))["html"](k);
-  </script>
   <style id="elementor-post-dynamic-642">
     .elementor-642 .elementor-element.elementor-element-28b3291:not(.elementor-motion-effects-element-type-background),
     .elementor-642 .elementor-element.elementor-element-28b3291>.elementor-motion-effects-container>.elementor-motion-effects-layer {
@@ -4868,7 +4682,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
 
     .elementor-642 .elementor-element.elementor-element-164270d:not(.elementor-motion-effects-element-type-background),
     .elementor-642 .elementor-element.elementor-element-164270d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
     }
 
     .elementor-642 .elementor-element.elementor-element-4963fc2.elementor-view-stacked .elementor-icon {
@@ -5146,7 +4960,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                     </style>
                     <script
                       type="text/javascript"
-                      src="/wp-content/plugins/cobakekiri/includes/assets/js/qr-code-styling.js"></script>
+                      src="./wp-content/plugins/cobakekiri/includes/assets/js/qr-code-styling.js"></script>
                     <div id="qr_checkin_684" class="qr_checkin"></div>
                     <script type="text/javascript">
                       (() => {
@@ -5394,53 +5208,53 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <link
     rel="stylesheet"
     id="eltemplate-widget-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/style.css?ver=1.0"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/style.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-image-box-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/widget-image-box.min.css?ver=1.0"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-image-box.min.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-icon-box-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/widget-icon-box.min.css?ver=1.0"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-icon-box.min.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-spacer-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/widget-spacer.css?ver=1.0"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-spacer.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-video-css"
-    href="/wp-content/plugins/eltemplate/includes/widgets/css/widget-video.css?ver=1.0"
+    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-video.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-642-css"
-    href="/wp-content/uploads/elementor/css/post-642.css?ver=1749320555"
+    href="./wp-content/uploads/elementor/css/post-642.css?ver=1749320555"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-icon-list-css"
-    href="/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-slideInUp-css"
-    href="/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-popup-css"
-    href="/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.2"
+    href="./wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.2"
     media="all" />
   <script
-    src="/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+    src="./wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
     id="wp-hooks-js"></script>
   <script
-    src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+    src="./wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
     id="wp-i18n-js"></script>
   <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -5448,16 +5262,16 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     });
   </script>
   <script
-    src="/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
+    src="./wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
     id="react-js"></script>
   <script
-    src="/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
+    src="./wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
     id="react-dom-js"></script>
   <script
-    src="/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2"
+    src="./wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2"
     id="wp-escape-html-js"></script>
   <script
-    src="/wp-includes/js/dist/element.min.js?ver=cb762d190aebbec25b27"
+    src="./wp-includes/js/dist/element.min.js?ver=cb762d190aebbec25b27"
     id="wp-element-js"></script>
   <script id="eltemplate-script-js-extra">
     var _eltemplateobject = {
@@ -5474,10 +5288,10 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     };
   </script>
   <script
-    src="/wp-content/plugins/eltemplate/admin/js/license.min.js?ver=1.0.0"
+    src="./wp-content/plugins/eltemplate/admin/js/license.min.js?ver=1.0.0"
     id="eltemplate-script-js"></script>
   <script
-    src="/wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_lib.js?ver=2.3.2"
+    src="./wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_lib.js?ver=2.3.2"
     id="saic_library-js"></script>
   <script id="wds_rsvp-js-extra">
     var WDS_RSVP = {
@@ -5493,19 +5307,19 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     };
   </script>
   <script
-    src="/wp-content/plugins/weddingsaas-pro/assets/js/wds-rsvp.js?ver=2.3.2"
+    src="./wp-content/plugins/weddingsaas-pro/assets/js/wds-rsvp.js?ver=2.3.2"
     id="wds_rsvp-js"></script>
   <script
-    src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.4.3"
+    src="./wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.4.3"
     id="hello-theme-frontend-js"></script>
   <script
-    src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.2"
     id="elementor-webpack-runtime-js"></script>
   <script
-    src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.2"
     id="elementor-frontend-modules-js"></script>
   <script
-    src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+    src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
     id="jquery-ui-core-js"></script>
   <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -5604,9 +5418,9 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         e_opt_in_v4_page: true,
       },
       urls: {
-        assets: "/wp-content\/plugins\/elementor\/assets\/",
+        assets: "./wp-content\/plugins\/elementor\/assets\/",
         ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
-        uploadUrl: "/wp-content\/uploads",
+        uploadUrl: "./wp-content\/uploads",
       },
       nonces: {
         floatingButtonsClickTracking: "770b94299c"
@@ -5635,46 +5449,46 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         id: 808,
         title: "The%20Wedding%20Of%20Ika%20%26%20Afdal",
         excerpt: "",
-        featuredImage: "/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
+        featuredImage: "./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
       },
     };
   </script>
   <script
-    src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2"
     id="elementor-frontend-js"></script>
   <script
-    src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2"
     id="e-sticky-js"></script>
   <script
-    src="/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
+    src="./wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
     id="swiper-js"></script>
   <script
-    src="/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"
+    src="./wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"
     id="elementor-gallery-js"></script>
   <script
-    src="/wp-content/plugins/weddingsaas-pro/assets/js/wds-elementor-audio.js?ver=2.3.2"
+    src="./wp-content/plugins/weddingsaas-pro/assets/js/wds-elementor-audio.js?ver=2.3.2"
     id="wds-audio-js"></script>
   <script id="happy-elementor-addons-js-extra">
     var HappyLocalize = {
       ajax_url: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "28c5710ec8",
-      pdf_js_lib: "/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
+      pdf_js_lib: "./wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
     };
   </script>
   <script
-    src="/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.17.0"
+    src="./wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.17.0"
     id="happy-elementor-addons-js"></script>
   <script
-    src="/wp-content/plugins/happy-elementor-addons/assets/js/extension-reading-progress-bar.min.js?ver=3.17.0"
+    src="./wp-content/plugins/happy-elementor-addons/assets/js/extension-reading-progress-bar.min.js?ver=3.17.0"
     id="happy-reading-progress-bar-js"></script>
   <script
-    src="/wp-content/plugins/eltemplate/includes/widgets/js/widget-video.js?ver=1.0.0"
+    src="./wp-content/plugins/eltemplate/includes/widgets/js/widget-video.js?ver=1.0.0"
     id="eltemplate-widget-video-js"></script>
   <script
-    src="/wp-content/plugins/eltemplate/includes/widgets/js/script.js?ver=1.0"
+    src="./wp-content/plugins/eltemplate/includes/widgets/js/script.js?ver=1.0"
     id="eltemplate-widget-js"></script>
   <script
-    src="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/jet-plugins/assets/build/index.js?ver=1.0.0"
+    src="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/jet-plugins/assets/build/index.js?ver=1.0.0"
     id="jet-plugins-js"></script>
 
   <script id="jet-engine-frontend-js-before">
@@ -5703,17 +5517,17 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     });
   </script>
   <script
-    src="/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=3.7.0"
+    src="./wp-content/plugins/jet-engine/assets/js/frontend.js?ver=3.7.0"
     id="jet-engine-frontend-js"></script>
   <script
-    src="/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2"
     id="elementor-pro-webpack-runtime-js"></script>
   <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
       ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "e691d4a1a6",
       urls: {
-        assets: "/wp-content\/plugins\/elementor-pro\/assets\/",
+        assets: "./wp-content\/plugins\/elementor-pro\/assets\/",
         rest: "https:\/\/Kodeingatan.my.id\/wp-json\/",
       },
       settings: {
@@ -5798,15 +5612,15 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         app_id: ""
       },
       lottie: {
-        defaultAnimationUrl: "/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        defaultAnimationUrl: "./wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
       },
     };
   </script>
   <script
-    src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2"
     id="elementor-pro-frontend-js"></script>
   <script
-    src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2"
+    src="./wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2"
     id="pro-elements-handlers-js"></script>
   <script id="jet-elements-js-extra">
     var jetElements = {
@@ -5820,7 +5634,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     };
   </script>
   <script
-    src="/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.7"
+    src="./wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.7"
     id="jet-elements-js"></script>
   <script>
     jQuery("head").append(
@@ -5843,8 +5657,8 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <style id="e-addons-template-dynamic-5a62f456-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-5a62f456:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-5a62f456>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
-      --e-bg-lazyload: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
       background-position: center center;
       background-size: cover;
     }
@@ -5852,8 +5666,8 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <style id="e-addons-template-dynamic-42b1fecc-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-42b1fecc:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-42b1fecc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
-      --e-bg-lazyload: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -5915,8 +5729,8 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <style id="e-addons-template-dynamic-164270d-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-164270d:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-164270d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
-      --e-bg-lazyload: url("/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
       background-position: center center;
       background-size: cover;
     }
