@@ -17,15 +17,15 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <title>The Wedding Of Ika & Afdal</title>
   <meta
     name="description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 31 Desember 2024 Ya!" />
+    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
   <meta name="robots" content="nofollow, noindex" />
   <meta property="og:locale" content="id_ID" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="The Wedding Of Ika & Afdal" />
   <meta
     property="og:description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 31 Desember 2024 Ya!" />
-  <meta property="og:url" content="/deluxe-03/" />
+    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
+  <meta property="og:url" content="/" />
   <meta property="og:site_name" content="Digital Wedding Invitation" />
   <meta property="article:section" content="Undangan Pernikahan" />
   <meta property="og:updated_time" content="2025-06-10T12:59:49+07:00" />
@@ -49,16 +49,16 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <meta name="twitter:title" content="The Wedding Of Ika & Afdal" />
   <meta
     name="twitter:description"
-    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 31 Desember 2024 Ya!" />
+    content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal. pada hari Minggu. 03 Agustus 2025 Ya!" />
   <meta
     name="twitter:image"
     content="/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta name="twitter:label1" content="Ditulis oleh" />
-  <meta name="twitter:data1" content="kekondangan" />
+  <meta name="twitter:data1" content="kodeingatan" />
   <meta name="twitter:label2" content="Waktunya membaca" />
   <meta name="twitter:data2" content="Kurang dari semenit" />
 
-  <link rel="dns-prefetch" href="//hi.kekondangan.id" />
+  <link rel="dns-prefetch" href="/" />
 
   <style id="global-styles-inline-css">
     :root {
@@ -524,11 +524,6 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     id="wds-elementor-css"
     href="/wp-content/plugins/weddingsaas-pro/assets/css/wds-elementor.css?ver=2.3.2"
     media="all" />
-  <link
-    rel="stylesheet"
-    id="saic_style-css"
-    href="/wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_style.css?ver=2.3.2"
-    media="screen" />
   <link
     rel="stylesheet"
     id="hello-elementor-css"
@@ -1950,86 +1945,8 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <script
     src="/wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6"
     id="dom-purify-js"></script>
-  <link rel="https://api.w.org/" href="/wp-json/" />
-  <link
-    rel="alternate"
-    title="JSON"
-    type="application/json"
-    href="/wp-json/wp/v2/posts/808" />
-  <link
-    rel="EditURI"
-    type="application/rsd+xml"
-    title="RSD"
-    href="/xmlrpc.php?rsd" />
-  <meta name="generator" content="WordPress 6.7.2" />
-  <link rel="shortlink" href="/?p=808" />
-  <link
-    rel="alternate"
-    title="oEmbed (JSON)"
-    type="application/json+oembed"
-    href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2FKodeingatan.my.id%2Fdeluxe-03%2F" />
-  <link
-    rel="alternate"
-    title="oEmbed (XML)"
-    type="text/xml+oembed"
-    href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2FKodeingatan.my.id%2Fdeluxe-03%2F&#038;format=xml" />
-  <meta
-    name="generator"
-    content="Elementor 3.29.2; features: additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-swap" />
 
 
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var videos = document.querySelectorAll(
-        ".elementor-background-video-container video"
-      );
-      videos.forEach(function(video) {
-        video.setAttribute("muted", "muted");
-        video.setAttribute("playsinline", "playsinline");
-        video.setAttribute("autoplay", "autoplay");
-        video.play();
-      });
-    });
-  </script>
-
-  <meta
-    name="facebook-domain-verification"
-    content="uxp988xpr4nwzk9m61hifpm3likshf" />
-  <!-- Meta Pixel Code -->
-  <script>
-    !(function(f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function() {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) :
-          n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = "2.0";
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    })(
-      window,
-      document,
-      "script",
-      "https://connect.facebook.net/en_US/fbevents.js"
-    );
-    fbq("init", "325633836349514");
-    fbq("track", "PageView");
-  </script>
-  <noscript><img
-      height="1"
-      width="1"
-      style="display: none"
-      src="https://www.facebook.com/tr?id=325633836349514&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
   <style>
     .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
     .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -2054,18 +1971,18 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   </style>
   <link
     rel="icon"
-    href="/wp-content/uploads/2024/12/cropped-LOGO_NEW-1-32x32.png"
+    href="/wp-content/uploads/2024/06/RSVP.webp"
     sizes="32x32" />
   <link
     rel="icon"
-    href="/wp-content/uploads/2024/12/cropped-LOGO_NEW-1-192x192.png"
+    href="/wp-content/uploads/2024/06/RSVP.webp"
     sizes="192x192" />
   <link
     rel="apple-touch-icon"
-    href="/wp-content/uploads/2024/12/cropped-LOGO_NEW-1-180x180.png" />
+    href="/wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="msapplication-TileImage"
-    content="/wp-content/uploads/2024/12/cropped-LOGO_NEW-1-270x270.png" />
+    content="/wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -2617,7 +2534,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   class="elementor-element elementor-element-3c377254 e-con-full e-flex e-con e-child"
                   data-id="3c377254"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-f5f013a elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="f5f013a"
@@ -2735,7 +2652,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
                   class="elementor-element elementor-element-2ea6f728 e-con-full e-flex e-con e-child"
                   data-id="2ea6f728"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-29c218a1 elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="29c218a1"
@@ -3401,14 +3318,14 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
             class="elementor-element elementor-element-30ee2ebb e-con-full e-flex e-con e-child"
             data-id="30ee2ebb"
             data-element_type="container"
-            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
             <div
               class="elementor-element elementor-element-6ac7afdf elementor-widget elementor-widget-heading"
               data-id="6ac7afdf"
               data-element_type="widget"
               data-settings='{"_animation_mobile":"zoomIn"}'
               data-widget_type="heading.default">
-              <div class="elementor-widget-container">
+              <div class="elementor-widget-container" style="margin-top: 200px;">
                 <span class="elementor-heading-title elementor-size-default">Ika &#038; Afdal</span>
               </div>
             </div>
@@ -3515,134 +3432,35 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
             data-widget_type="gallery.default">
             <div class="elementor-widget-container">
               <div class="elementor-gallery__container">
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-08-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-08-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDgta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-08-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-07-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-07-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NiwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDcta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-07-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-06-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-06-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NywidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDYta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-06-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-05-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-05-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1OCwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDUta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-05-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-04-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-04-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1OSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDQta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-04-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-03-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-03-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2MCwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDMta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-03-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-02-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-02-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2MSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDIta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-02-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
-                <a
-                  class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                  href="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-01-kekondangan.webp"
-                  data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="4b117ddd"
-                  data-elementor-lightbox-title="08-Gallery-01-kekondangan"
-                  data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2MiwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDEta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                  <div
-                    class="e-gallery-image elementor-gallery-item__image"
-                    data-thumbnail="/wp-content/uploads/jet-form-builder/4c5bde74a8f110656874902f07378009/2024/06/08-Gallery-01-kekondangan.webp"
-                    data-width="1024"
-                    data-height="768"
-                    aria-label=""
-                    role="img"></div>
-                  <div class="elementor-gallery-item__overlay"></div>
-                </a>
+
+                <?php
+                $files = scandir("./galery");
+                ?>
+
+                <?php foreach ($files as $index => $file) {
+                  if ($file != "." && $file != "..") {
+                ?>
+                    <a
+                      class="e-gallery-item elementor-gallery-item elementor-animated-content"
+                      href="./galery/<?= $file ?>"
+                      data-elementor-open-lightbox="yes"
+                      data-elementor-lightbox-slideshow="4b117ddd"
+                      data-elementor-lightbox-title="08-Gallery-08-kekondangan"
+                      data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDgta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
+                      <div
+                        class="e-gallery-image elementor-gallery-item__image"
+                        data-thumbnail="./galery/<?= $file ?>"
+                        data-width="1024"
+                        data-height="768"
+                        aria-label=""
+                        role="img"></div>
+                      <div class="elementor-gallery-item__overlay"></div>
+                    </a>
+                <?php }
+                } ?>
+
+
+
               </div>
             </div>
           </div>
@@ -3658,7 +3476,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
             </div>
           </div>
         </div>
-        <div
+        <!-- <div
           class="elementor-element elementor-element-37cdc3e e-con-full jedv-enabled--yes non-clickable e-flex e-con e-child"
           data-id="37cdc3e"
           data-element_type="container"
@@ -3675,7 +3493,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div
           class="elementor-element elementor-element-2a66bce7 e-con-full jedv-enabled--yes e-flex e-con e-child"
           data-id="2a66bce7"
@@ -4399,9 +4217,10 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         </div>
         <div
           class="elementor-element elementor-element-248801b8 e-con-full e-flex e-con e-child"
+          style="margin-top: 250px;"
           data-id="248801b8"
           data-element_type="container"
-          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
+          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
           <div
             class="elementor-element elementor-element-2cb95fde e-con-full e-flex e-con e-child"
             data-id="2cb95fde"
@@ -5785,9 +5604,9 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         e_opt_in_v4_page: true,
       },
       urls: {
-        assets: "https:\/\/hi.kekondangan.id\/wp-content\/plugins\/elementor\/assets\/",
+        assets: "/wp-content\/plugins\/elementor\/assets\/",
         ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
-        uploadUrl: "https:\/\/hi.kekondangan.id\/wp-content\/uploads",
+        uploadUrl: "/wp-content\/uploads",
       },
       nonces: {
         floatingButtonsClickTracking: "770b94299c"
@@ -5816,7 +5635,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         id: 808,
         title: "The%20Wedding%20Of%20Ika%20%26%20Afdal",
         excerpt: "",
-        featuredImage: "https:\/\/hi.kekondangan.id\/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
+        featuredImage: "/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
       },
     };
   </script>
@@ -5839,7 +5658,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
     var HappyLocalize = {
       ajax_url: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "28c5710ec8",
-      pdf_js_lib: "https:\/\/hi.kekondangan.id\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
+      pdf_js_lib: "/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
     };
   </script>
   <script
@@ -5857,16 +5676,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
   <script
     src="/wp-content/plugins/jetformbuilder-3.4.7.1/modules/jet-plugins/assets/build/index.js?ver=1.0.0"
     id="jet-plugins-js"></script>
-  <script id="jet-engine-frontend-js-extra">
-    var JetEngineSettings = {
-      ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
-      ajaxlisting: "https:\/\/Kodeingatan.my.id\/deluxe-03\/?to=Nama+Tamu&nocache=1751044497",
-      restNonce: "90cb04cb0d",
-      hoverActionTimeout: "400",
-      post_id: "808",
-      addedPostCSS: ["14", "13"],
-    };
-  </script>
+
   <script id="jet-engine-frontend-js-before">
     jQuery(window).on("jet-engine/frontend/loaded", function() {
       window.JetPlugins.hooks.addFilter(
@@ -5903,7 +5713,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
       ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "e691d4a1a6",
       urls: {
-        assets: "https:\/\/hi.kekondangan.id\/wp-content\/plugins\/elementor-pro\/assets\/",
+        assets: "/wp-content\/plugins\/elementor-pro\/assets\/",
         rest: "https:\/\/Kodeingatan.my.id\/wp-json\/",
       },
       settings: {
@@ -5988,7 +5798,7 @@ $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
         app_id: ""
       },
       lottie: {
-        defaultAnimationUrl: "https:\/\/hi.kekondangan.id\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        defaultAnimationUrl: "/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
       },
     };
   </script>
