@@ -3415,35 +3415,7 @@
             data-widget_type="gallery.default">
             <div class="elementor-widget-container">
               <div class="elementor-gallery__container">
-
-                <?php
-                $files = scandir('./galery');
-?>
-
-                <?php foreach ($files as $index => $file) {
-                    if ($file != '.' && $file != '..') {
-                        ?>
-                    <a
-                      class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                      href="{{base_url}}/galery/<?php echo $file; ?>"
-                      data-elementor-open-lightbox="yes"
-                      data-elementor-lightbox-slideshow="4b117ddd"
-                      data-elementor-lightbox-title="08-Gallery-08-kekondangan"
-                      data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDgta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
-                      <div
-                        class="e-gallery-image elementor-gallery-item__image"
-                        data-thumbnail="{{base_url}}/galery/<?php echo $file; ?>"
-                        data-width="1024"
-                        data-height="768"
-                        aria-label=""
-                        role="img"></div>
-                      <div class="elementor-gallery-item__overlay"></div>
-                    </a>
-                <?php }
-                    } ?>
-
-
-
+                {{galeries}}
               </div>
             </div>
           </div>
