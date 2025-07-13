@@ -1,12 +1,15 @@
+
+
 <?php
 $nama_tamu = $_GET['to'] ?? 'Tamu Kehormatan';
 
 $is_https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
   || $_SERVER['SERVER_PORT'] == 443;
-$protocol = $is_https  ? 'https://' : 'http://';
-$base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
+$protocol = $is_https ? 'https://' : 'http://';
+$base_url = "{$protocol}{$_SERVER['HTTP_HOST']}/ika";
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="id" prefix="og: https://ogp.me/ns#">
@@ -31,8 +34,8 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <meta property="og:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
   <meta property="og:url" content="https://dalika.ct.ws" />
   <meta property="og:site_name" content="Digital Wedding Invitation" />
-  <meta property="og:image" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
-  <meta property="og:image:secure_url" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image" content="<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta property="og:image:secure_url" content="<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="810" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -45,7 +48,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Wedding of Ika & Afdal – 03 Agustus 2025" />
   <meta name="twitter:description" content="<?php echo $nama_tamu; ?>, hadiri acara pernikahan Ika & Afdal pada hari Minggu, 03 Agustus 2025. Kami tunggu kehadiranmu!" />
-  <meta name="twitter:image" content="<?= $base_url ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
+  <meta name="twitter:image" content="<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg" />
   <meta name="twitter:label1" content="Ditulis oleh" />
   <meta name="twitter:data1" content="kodeingatan" />
   <meta name="twitter:label2" content="Waktunya membaca" />
@@ -515,27 +518,27 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <link
     rel="stylesheet"
     id="wds-elementor-css"
-    href="./wp-content/plugins/weddingsaas-pro/assets/css/wds-elementor.css?ver=2.3.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/weddingsaas-pro/assets/css/wds-elementor.css?ver=2.3.2"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-css"
-    href="./wp-content/themes/hello-elementor/style.min.css?ver=3.4.3"
+    href="<?php echo $base_url; ?>/wp-content/themes/hello-elementor/style.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-theme-style-css"
-    href="./wp-content/themes/hello-elementor/theme.min.css?ver=3.4.3"
+    href="<?php echo $base_url; ?>/wp-content/themes/hello-elementor/theme.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="hello-elementor-header-footer-css"
-    href="./wp-content/themes/hello-elementor/header-footer.min.css?ver=3.4.3"
+    href="<?php echo $base_url; ?>/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.4.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-frontend-css"
-    href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.29.2"
     media="all" />
   <style id="elementor-frontend-inline-css">
     @-webkit-keyframes ha_fadeIn {
@@ -1468,12 +1471,12 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
 
     .elementor-543 .elementor-element.elementor-element-5a62f456:not(.elementor-motion-effects-element-type-background),
     .elementor-543 .elementor-element.elementor-element-5a62f456>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
     }
 
     .elementor-543 .elementor-element.elementor-element-42b1fecc:not(.elementor-motion-effects-element-type-background),
     .elementor-543 .elementor-element.elementor-element-42b1fecc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
     }
 
     .elementor-543 .elementor-element.elementor-element-6c38f40a .elementor-button {
@@ -1644,299 +1647,299 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <link
     rel="stylesheet"
     id="elementor-post-6-css"
-    href="./wp-content/uploads/elementor/css/post-6.css?ver=1749320546"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/css/post-6.css?ver=1749320546"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-select-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/select.css?ver=0edd78a6f12e2b918b82"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/select.css?ver=0edd78a6f12e2b918b82"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-checkbox-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/checkbox.css?ver=f54eb583054648e8615b"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/checkbox.css?ver=f54eb583054648e8615b"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-option-field-radio-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/radio.css?ver=7c6d0d4d7df91e6bd6a4"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/option-field/assets/build/radio.css?ver=7c6d0d4d7df91e6bd6a4"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-advanced-choices-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/advanced-choices/assets/build/main.css?ver=d414f4b566f1e18fda82"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/advanced-choices/assets/build/main.css?ver=d414f4b566f1e18fda82"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-wysiwyg-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/wysiwyg/assets/build/wysiwyg.css?ver=5a4d16fb6d7a94700261"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/wysiwyg/assets/build/wysiwyg.css?ver=5a4d16fb6d7a94700261"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-fb-switcher-css"
-    href="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/switcher/assets/build/switcher.css?ver=06c887a8b9195e5a119d"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/switcher/assets/build/switcher.css?ver=06c887a8b9195e5a119d"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-bounceIn-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/bounceIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeIn-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-heading-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-zoomIn-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-spacer-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-sticky-css"
-    href="./wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-elements-css"
-    href="./wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.7.7"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-countdown-timer-css"
-    href="./wp-content/plugins/jet-elements/assets/css/addons/jet-countdown-timer.css?ver=2.7.7"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/css/addons/jet-countdown-timer.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-countdown-timer-skin-css"
-    href="./wp-content/plugins/jet-elements/assets/css/skin/jet-countdown-timer.css?ver=2.7.7"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/css/skin/jet-countdown-timer.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="swiper-css"
-    href="./wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
     media="all" />
   <link
     rel="stylesheet"
     id="e-swiper-css"
-    href="./wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInUp-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-divider-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-timeline-css"
-    href="./wp-content/plugins/jet-elements/assets/css/addons/jet-timeline.css?ver=2.7.7"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/css/addons/jet-timeline.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="jet-timeline-skin-css"
-    href="./wp-content/plugins/jet-elements/assets/css/skin/jet-timeline.css?ver=2.7.7"
+    href="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/css/skin/jet-timeline.css?ver=2.7.7"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInLeft-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-fadeInDown-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-gallery-css"
-    href="./wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gallery-css"
-    href="./wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0"
     media="all" />
   <link
     rel="stylesheet"
     id="e-transitions-css"
-    href="./wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-video-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-image-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-grow-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-social-icons-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-apple-webkit-css"
-    href="./wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-css"
-    href="./wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.40.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.40.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-frontend-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/frontend.css?ver=1"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/frontend.css?ver=1"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-5-all-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-4-shim-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-543-css"
-    href="./wp-content/uploads/elementor/css/post-543.css?ver=1749323711"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/css/post-543.css?ver=1749323711"
     media="all" />
   <link
     rel="stylesheet"
     id="happy-icons-css"
-    href="./wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.17.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.17.0"
     media="all" />
   <link
     rel="stylesheet"
     id="font-awesome-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-14-css"
-    href="./wp-content/uploads/elementor/css/post-14.css?ver=1749320548"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/css/post-14.css?ver=1749320548"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-13-css"
-    href="./wp-content/uploads/elementor/css/post-13.css?ver=1749320549"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/css/post-13.css?ver=1749320549"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-roboto-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1748782089"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1748782089"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-robotoslab-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1748782091"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1748782091"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-prata-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/prata.css?ver=1748782091"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/prata.css?ver=1748782091"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-shipporiminchob1-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/shipporiminchob1.css?ver=1748782127"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/shipporiminchob1.css?ver=1748782127"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-philosopher-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/philosopher.css?ver=1748782096"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/philosopher.css?ver=1748782096"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-cormorantinfant-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css?ver=1748782096"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css?ver=1748782096"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-poppins-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1748782098"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1748782098"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-elsie-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/elsie.css?ver=1748782129"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/elsie.css?ver=1748782129"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-shipporimincho-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/shipporimincho.css?ver=1748782300"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/shipporimincho.css?ver=1748782300"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-lora-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1748782158"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1748782158"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-nunito-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/nunito.css?ver=1748782128"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/nunito.css?ver=1748782128"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-gf-local-sora-css"
-    href="./wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1748782109"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/google-fonts/css/sora.css?ver=1748782109"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-shared-0-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-brands-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-solid-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-icons-fa-regular-css"
-    href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
     media="all" />
   <script
-    src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    src="<?php echo $base_url; ?>/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
     id="jquery-core-js"></script>
   <script
-    src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    src="<?php echo $base_url; ?>/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
     id="jquery-migrate-js"></script>
   <script
-    src="./wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.29.2"
     id="font-awesome-4-shim-js"></script>
   <script
-    src="./wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6"
+    src="<?php echo $base_url; ?>/wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6"
     id="dom-purify-js"></script>
 
 
@@ -1964,18 +1967,18 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   </style>
   <link
     rel="icon"
-    href="./wp-content/uploads/2024/06/RSVP.webp"
+    href="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp"
     sizes="32x32" />
   <link
     rel="icon"
-    href="./wp-content/uploads/2024/06/RSVP.webp"
+    href="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp"
     sizes="192x192" />
   <link
     rel="apple-touch-icon"
-    href="./wp-content/uploads/2024/06/RSVP.webp" />
+    href="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="msapplication-TileImage"
-    content="./wp-content/uploads/2024/06/RSVP.webp" />
+    content="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp" />
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -2242,11 +2245,11 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
               "background_slideshow_gallery": [
                 {
                   "id": "1449",
-                  "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
+                  "url": "<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
                 },
                 {
                   "id": "1450",
-                  "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
+                  "url": "<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
                 }
               ],
               "background_slideshow_loop": "yes"
@@ -2527,7 +2530,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                   class="elementor-element elementor-element-3c377254 e-con-full e-flex e-con e-child"
                   data-id="3c377254"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1445","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-02-kekondangan.webp"},{"id":"1446","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/05-CPW-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-f5f013a elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="f5f013a"
@@ -2645,7 +2648,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                   class="elementor-element elementor-element-2ea6f728 e-con-full e-flex e-con e-child"
                   data-id="2ea6f728"
                   data-element_type="container"
-                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+                  data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1447","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-02-kekondangan.webp"},{"id":"1448","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/04-CPP-01-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
                   <div
                     class="elementor-element elementor-element-29c218a1 elementor-absolute e-transform elementor-widget elementor-widget-heading"
                     data-id="29c218a1"
@@ -2785,7 +2788,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                             </div>
                             <h5 class="timeline-item__card-title">Bertemu</h5>
                             <div class="timeline-item__card-desc">
-                              Tak pernah terduga, semesta mempertemukan kami dalam satu tempat kerja. Di antara tumpukan rutinitas dan riuhnya hari-hari, hadir seseorang yang diam-diam memahami. Dia begitu lembut dalam perhatian, begitu tulus dalam kebaikan. Saat aku merasa sendiri, dia hadir—membaca diamku, mengerti tanpa perlu banyak kata. Pertemuan itu bukan sekadar kebetulan, tapi awal dari kisah cinta suci yang perlahan tumbuh dalam keheningan hati.
+                              Tak pernah terduga, Allah swt mempertemukan kami dalam satu tempat kerja. Di antara tumpukan rutinitas dan riuhnya hari-hari, hadir seseorang yang diam-diam memahami. Dia begitu lembut dalam perhatian, begitu tulus dalam kebaikan. Saat aku merasa sendiri, dia hadir—membaca diamku, mengerti tanpa perlu banyak kata. Pertemuan itu bukan sekadar kebetulan, tapi awal dari kisah cinta suci yang tumbuh dalam diam, dalam rasa yang saling menemukan.
                             </div>
                           </div>
                         </div>
@@ -2831,7 +2834,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                             </div>
                             <h5 class="timeline-item__card-title">Melamar</h5>
                             <div class="timeline-item__card-desc">
-                              Setelah perjalanan panjang yang penuh makna. Dia datang di hari ulang tahunku, menyematkan cincin sebagai simbol janji yang tulus. Sebuah momen manis yang tak akan terlupa. Lalu, pada 29 Januari 2025, dia datang bersama keluarganya, membawa niat baik, meminangku dengan hati yang sepenuhnya siap. Saat itu, aku tahu dia adalah rumah yang selama ini aku cari.
+                              Setelah perjalanan panjang yang penuh makna. Dia datang di hari ulang tahunku, menyematkan cincin sebagai simbol janji yang tulus. Sebuah momen manis yang tak akan terlupakan. Lalu, pada 29 Januari 2025, dia datang bersama keluarganya, membawa niat baik, meminangku dengan hati yang sepenuhnya siap. Saat itu, kami yakin: kami adalah rumah satu sama lain, tempat hati ingin selalu pulang.
                             </div>
                           </div>
                         </div>
@@ -2877,7 +2880,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                             </div>
                             <h5 class="timeline-item__card-title">Menikah</h5>
                             <div class="timeline-item__card-desc">
-                              Kini, kami berdiri di bersama, mengikrarkan janji suci dalam ikatan pernikahan. Cinta ini bukan sekadar hasil dari sebuah pertemuan, melainkan takdir yang mempertemukan dua hati yang telah ditulis untuk saling melengkapi. Bukan sekedar cerita cinta, tapi janji untuk seumur hidup. Karena cinta sejati tak pernah tersesat, dan takdir tak pernah keliru membawa dua jiwa yang saling mencintai untuk akhirnya bersatu.
+                              Kini, kami berdiri di pelaminan, mengikrarkan janji suci dalam ikatan pernikahan. Cinta ini bukan sekadar hasil dari sebuah pertemuan, melainkan takdir yang mempertemukan dua hati yang telah ditulis untuk saling melengkapi. Bukan sekedar cerita cinta, tapi janji untuk seumur hidup. Karena cinta sejati tak pernah tersesat, dan takdir tak pernah keliru membawa dua jiwa yang saling mencintai untuk akhirnya bersatu.
                             </div>
                           </div>
                         </div>
@@ -3311,7 +3314,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
             class="elementor-element elementor-element-30ee2ebb e-con-full e-flex e-con e-child"
             data-id="30ee2ebb"
             data-element_type="container"
-            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
+            data-settings='{"background_background":"slideshow","jet_parallax_layout_list":[],"background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"background_slideshow_gallery":[{"id":"1451","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-01-kekondangan.webp"},{"id":"1452","url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/06-Akad-03-kekondangan.webp"}],"background_slideshow_loop":"yes","background_slideshow_slide_transition":"fade"}'>
             <div
               class="elementor-element elementor-element-6ac7afdf elementor-widget elementor-widget-heading"
               data-id="6ac7afdf"
@@ -3427,22 +3430,22 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
               <div class="elementor-gallery__container">
 
                 <?php
-                $files = scandir("./galery");
-                ?>
+                $files = scandir('./galery');
+?>
 
                 <?php foreach ($files as $index => $file) {
-                  if ($file != "." && $file != "..") {
-                ?>
+                    if ($file != '.' && $file != '..') {
+                        ?>
                     <a
                       class="e-gallery-item elementor-gallery-item elementor-animated-content"
-                      href="./galery/<?= $file ?>"
+                      href="<?php echo $base_url; ?>/galery/<?php echo $file; ?>"
                       data-elementor-open-lightbox="yes"
                       data-elementor-lightbox-slideshow="4b117ddd"
                       data-elementor-lightbox-title="08-Gallery-08-kekondangan"
                       data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1NSwidXJsIjoiaHR0cHM6XC9cL2hpLmtla29uZGFuZ2FuLmlkXC93cC1jb250ZW50XC91cGxvYWRzXC9qZXQtZm9ybS1idWlsZGVyXC80YzViZGU3NGE4ZjExMDY1Njg3NDkwMmYwNzM3ODAwOVwvMjAyNFwvMDZcLzA4LUdhbGxlcnktMDgta2Vrb25kYW5nYW4ud2VicCIsInNsaWRlc2hvdyI6IjRiMTE3ZGRkIn0%3D">
                       <div
                         class="e-gallery-image elementor-gallery-item__image"
-                        data-thumbnail="./galery/<?= $file ?>"
+                        data-thumbnail="<?php echo $base_url; ?>/galery/<?php echo $file; ?>"
                         data-width="1024"
                         data-height="768"
                         aria-label=""
@@ -3450,7 +3453,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                       <div class="elementor-gallery-item__overlay"></div>
                     </a>
                 <?php }
-                } ?>
+                    } ?>
 
 
 
@@ -3561,11 +3564,11 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                         "background_slideshow_gallery": [
                           {
                             "id": "1449",
-                            "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
+                            "url": "<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-02-kekondangan.webp"
                           },
                           {
                             "id": "1450",
-                            "url": "./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
+                            "url": "<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/03-Countdown-01-kekondangan.webp"
                           }
                         ],
                         "background_slideshow_loop": "yes"
@@ -3612,7 +3615,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                                           class="jet-listing jet-listing-dynamic-image">
                                           <img
                                             style="height: 50px"
-                                            src="./wp-content/uploads/2025/03/bri.png"
+                                            src="<?php echo $base_url; ?>/wp-content/uploads/2025/03/bri.png"
                                             class="jet-listing-dynamic-image__img attachment-full size-full"
                                             alt="bri"
                                             decoding="async"
@@ -3689,7 +3692,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                                             class="elementor-widget-container">
                                             <script
                                               type="text/javascript"
-                                              src="./wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
+                                              src="<?php echo $base_url; ?>/wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
                                             <div
                                               class="elementor-button-wrapper">
                                               <a
@@ -3810,7 +3813,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                                           class="jet-listing jet-listing-dynamic-image">
                                           <img
                                             style="height: 50px"
-                                            src="./wp-content/uploads/2025/03/bsi.png"
+                                            src="<?php echo $base_url; ?>/wp-content/uploads/2025/03/bsi.png"
                                             class="jet-listing-dynamic-image__img attachment-full size-full"
                                             alt="bsi"
                                             decoding="async"
@@ -3887,7 +3890,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                                             class="elementor-widget-container">
                                             <script
                                               type="text/javascript"
-                                              src="./wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
+                                              src="<?php echo $base_url; ?>/wp-content/plugins/cobakekiri/includes/assets/js/clipboard.min.js"></script>
                                             <div
                                               class="elementor-button-wrapper">
                                               <a
@@ -4024,7 +4027,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
               <a href="https://calendar.app.google/fB21xURAGEX2VhKJ8" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" rel="nofollow" role="button">
                 <span class="elementor-button-content-wrapper wds-flexbox" style="display: flex;align-items: center;">
                   <span class="elementor-button-icon elementor-align-icon-row" style="display: flex;justify-content: center;align-items: center;">
-                    <img style="height: 30px; width: 30px;" src="./wp-content/uploads/2024/06/RSVP.webp">
+                    <img style="height: 30px; width: 30px;" src="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp">
                   </span>
                   <span class="elementor-button-text" style="font-size: 16px;font-weight: lighter; text-align: center;">
                     Klik Disini Tandai Kehadiran &amp; Berikan Ucapan
@@ -4212,7 +4215,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
           class="elementor-element elementor-element-248801b8 e-con-full e-flex e-con e-child"
           data-id="248801b8"
           data-element_type="container"
-          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
+          data-settings='{"background_background":"slideshow","background_slideshow_slide_duration":2500,"background_slideshow_transition_duration":2500,"jet_parallax_layout_list":[],"background_slideshow_slide_transition":"slide_right","background_slideshow_gallery":[{"id":1453,"url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-02-kekondangan.webp"},{"id":1454,"url":"<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/09-Penutup-01-kekondangan.webp"}],"background_slideshow_loop":"yes"}'>
           <div
             class="elementor-element elementor-element-2cb95fde e-con-full e-flex e-con e-child"
             data-id="2cb95fde"
@@ -4308,7 +4311,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                   <img
                     width="300"
                     height="139"
-                    src="./wp-content/uploads/2024/06/RSVP.webp"
+                    src="<?php echo $base_url; ?>/wp-content/uploads/2024/06/RSVP.webp"
                     class="attachment-medium size-medium wp-image-36258"
                     alt="" />
                 </a>
@@ -4369,7 +4372,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                 <script type="text/javascript">
                   var WdsAudio = {
                     source: "url",
-                    audio_link: "<?= $base_url ?>/music.mp3",
+                    audio_link: "<?php echo $base_url; ?>/music.mp3",
                     audio_start: "",
                     audio_end: "",
                     autoplay: false,
@@ -4423,7 +4426,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                 <div id="wds-audio-box" style="display: none !important">
                   <audio id="song" loop>
                     <source
-                      src="<?= $base_url ?>/music.mp3"
+                      src="<?php echo $base_url; ?>/music.mp3"
                       type="audio/mp3" />
                   </audio>
                 </div>
@@ -4688,7 +4691,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
 
     .elementor-642 .elementor-element.elementor-element-164270d:not(.elementor-motion-effects-element-type-background),
     .elementor-642 .elementor-element.elementor-element-164270d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
     }
 
     .elementor-642 .elementor-element.elementor-element-4963fc2.elementor-view-stacked .elementor-icon {
@@ -4966,7 +4969,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
                     </style>
                     <script
                       type="text/javascript"
-                      src="./wp-content/plugins/cobakekiri/includes/assets/js/qr-code-styling.js"></script>
+                      src="<?php echo $base_url; ?>/wp-content/plugins/cobakekiri/includes/assets/js/qr-code-styling.js"></script>
                     <div id="qr_checkin_684" class="qr_checkin"></div>
                     <script type="text/javascript">
                       (() => {
@@ -5214,53 +5217,53 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <link
     rel="stylesheet"
     id="eltemplate-widget-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/style.css?ver=1.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/style.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-image-box-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-image-box.min.css?ver=1.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/widget-image-box.min.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-icon-box-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-icon-box.min.css?ver=1.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/widget-icon-box.min.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-spacer-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-spacer.css?ver=1.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/widget-spacer.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="eltemplate-widget-video-css"
-    href="./wp-content/plugins/eltemplate/includes/widgets/css/widget-video.css?ver=1.0"
+    href="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/css/widget-video.css?ver=1.0"
     media="all" />
   <link
     rel="stylesheet"
     id="elementor-post-642-css"
-    href="./wp-content/uploads/elementor/css/post-642.css?ver=1749320555"
+    href="<?php echo $base_url; ?>/wp-content/uploads/elementor/css/post-642.css?ver=1749320555"
     media="all" />
   <link
     rel="stylesheet"
     id="widget-icon-list-css"
-    href="./wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-animation-slideInUp-css"
-    href="./wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.29.2"
     media="all" />
   <link
     rel="stylesheet"
     id="e-popup-css"
-    href="./wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.2"
+    href="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.2"
     media="all" />
   <script
-    src="./wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
     id="wp-hooks-js"></script>
   <script
-    src="./wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
     id="wp-i18n-js"></script>
   <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -5268,16 +5271,16 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
     });
   </script>
   <script
-    src="./wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"
     id="react-js"></script>
   <script
-    src="./wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"
     id="react-dom-js"></script>
   <script
-    src="./wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2"
     id="wp-escape-html-js"></script>
   <script
-    src="./wp-includes/js/dist/element.min.js?ver=cb762d190aebbec25b27"
+    src="<?php echo $base_url; ?>/wp-includes/js/dist/element.min.js?ver=cb762d190aebbec25b27"
     id="wp-element-js"></script>
   <script id="eltemplate-script-js-extra">
     var _eltemplateobject = {
@@ -5294,10 +5297,10 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
     };
   </script>
   <script
-    src="./wp-content/plugins/eltemplate/admin/js/license.min.js?ver=1.0.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/admin/js/license.min.js?ver=1.0.0"
     id="eltemplate-script-js"></script>
   <script
-    src="./wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_lib.js?ver=2.3.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_lib.js?ver=2.3.2"
     id="saic_library-js"></script>
   <script id="wds_rsvp-js-extra">
     var WDS_RSVP = {
@@ -5313,19 +5316,19 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
     };
   </script>
   <script
-    src="./wp-content/plugins/weddingsaas-pro/assets/js/wds-rsvp.js?ver=2.3.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/weddingsaas-pro/assets/js/wds-rsvp.js?ver=2.3.2"
     id="wds_rsvp-js"></script>
   <script
-    src="./wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.4.3"
+    src="<?php echo $base_url; ?>/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.4.3"
     id="hello-theme-frontend-js"></script>
   <script
-    src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.29.2"
     id="elementor-webpack-runtime-js"></script>
   <script
-    src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.29.2"
     id="elementor-frontend-modules-js"></script>
   <script
-    src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+    src="<?php echo $base_url; ?>/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
     id="jquery-ui-core-js"></script>
   <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -5424,9 +5427,9 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
         e_opt_in_v4_page: true,
       },
       urls: {
-        assets: "./wp-content\/plugins\/elementor\/assets\/",
+        assets: "<?php echo $base_url; ?>/wp-content\/plugins\/elementor\/assets\/",
         ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
-        uploadUrl: "./wp-content\/uploads",
+        uploadUrl: "<?php echo $base_url; ?>/wp-content\/uploads",
       },
       nonces: {
         floatingButtonsClickTracking: "770b94299c"
@@ -5455,46 +5458,46 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
         id: 808,
         title: "The%20Wedding%20Of%20Ika%20%26%20Afdal",
         excerpt: "",
-        featuredImage: "./wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
+        featuredImage: "<?php echo $base_url; ?>/wp-content\/uploads\/jet-form-builder\/cedebb6e872f539bef8c3f919874e9d7\/2024\/06\/01-Preview-Thumbnail-01.jpg",
       },
     };
   </script>
   <script
-    src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2"
     id="elementor-frontend-js"></script>
   <script
-    src="./wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2"
     id="e-sticky-js"></script>
   <script
-    src="./wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
     id="swiper-js"></script>
   <script
-    src="./wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"
     id="elementor-gallery-js"></script>
   <script
-    src="./wp-content/plugins/weddingsaas-pro/assets/js/wds-elementor-audio.js?ver=2.3.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/weddingsaas-pro/assets/js/wds-elementor-audio.js?ver=2.3.2"
     id="wds-audio-js"></script>
   <script id="happy-elementor-addons-js-extra">
     var HappyLocalize = {
       ajax_url: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "28c5710ec8",
-      pdf_js_lib: "./wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
+      pdf_js_lib: "<?php echo $base_url; ?>/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib",
     };
   </script>
   <script
-    src="./wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.17.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.17.0"
     id="happy-elementor-addons-js"></script>
   <script
-    src="./wp-content/plugins/happy-elementor-addons/assets/js/extension-reading-progress-bar.min.js?ver=3.17.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/happy-elementor-addons/assets/js/extension-reading-progress-bar.min.js?ver=3.17.0"
     id="happy-reading-progress-bar-js"></script>
   <script
-    src="./wp-content/plugins/eltemplate/includes/widgets/js/widget-video.js?ver=1.0.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/js/widget-video.js?ver=1.0.0"
     id="eltemplate-widget-video-js"></script>
   <script
-    src="./wp-content/plugins/eltemplate/includes/widgets/js/script.js?ver=1.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/eltemplate/includes/widgets/js/script.js?ver=1.0"
     id="eltemplate-widget-js"></script>
   <script
-    src="./wp-content/plugins/jetformbuilder-3.4.7.1/modules/jet-plugins/assets/build/index.js?ver=1.0.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/jetformbuilder-3.4.7.1/modules/jet-plugins/assets/build/index.js?ver=1.0.0"
     id="jet-plugins-js"></script>
 
   <script id="jet-engine-frontend-js-before">
@@ -5523,17 +5526,17 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
     });
   </script>
   <script
-    src="./wp-content/plugins/jet-engine/assets/js/frontend.js?ver=3.7.0"
+    src="<?php echo $base_url; ?>/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=3.7.0"
     id="jet-engine-frontend-js"></script>
   <script
-    src="./wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2"
     id="elementor-pro-webpack-runtime-js"></script>
   <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
       ajaxurl: "https:\/\/Kodeingatan.my.id\/wp-admin\/admin-ajax.php",
       nonce: "e691d4a1a6",
       urls: {
-        assets: "./wp-content\/plugins\/elementor-pro\/assets\/",
+        assets: "<?php echo $base_url; ?>/wp-content\/plugins\/elementor-pro\/assets\/",
         rest: "https:\/\/Kodeingatan.my.id\/wp-json\/",
       },
       settings: {
@@ -5618,15 +5621,15 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
         app_id: ""
       },
       lottie: {
-        defaultAnimationUrl: "./wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        defaultAnimationUrl: "<?php echo $base_url; ?>/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
       },
     };
   </script>
   <script
-    src="./wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2"
     id="elementor-pro-frontend-js"></script>
   <script
-    src="./wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2"
+    src="<?php echo $base_url; ?>/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2"
     id="pro-elements-handlers-js"></script>
   <script id="jet-elements-js-extra">
     var jetElements = {
@@ -5640,7 +5643,7 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
     };
   </script>
   <script
-    src="./wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.7"
+    src="<?php echo $base_url; ?>/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.7"
     id="jet-elements-js"></script>
   <script>
     jQuery("head").append(
@@ -5663,8 +5666,8 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <style id="e-addons-template-dynamic-5a62f456-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-5a62f456:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-5a62f456>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
-      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      --e-bg-lazyload: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
       background-position: center center;
       background-size: cover;
     }
@@ -5672,8 +5675,8 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <style id="e-addons-template-dynamic-42b1fecc-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-42b1fecc:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-42b1fecc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
-      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
+      --e-bg-lazyload: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/02-Cover-01.jpg");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -5735,8 +5738,8 @@ $base_url = "{$protocol}{$_SERVER['HTTP_HOST']}"
   <style id="e-addons-template-dynamic-164270d-inline">
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-164270d:not(.elementor-motion-effects-element-type-background),
     .elementor:is(.e-post-808, .e-loop-item-808) .elementor-element.elementor-element-164270d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-      background-image: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
-      --e-bg-lazyload: url("./wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      background-image: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
+      --e-bg-lazyload: url("<?php echo $base_url; ?>/wp-content/uploads/jet-form-builder/cedebb6e872f539bef8c3f919874e9d7/2024/06/01-Preview-Thumbnail-01.jpg");
       background-position: center center;
       background-size: cover;
     }
